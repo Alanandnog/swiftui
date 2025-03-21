@@ -1,5 +1,5 @@
 //
-//  MetaView.swift
+//  ContentView.swift
 //  Goalmate
 //
 //  Created by found on 21/03/25.
@@ -7,12 +7,14 @@
 
 import SwiftUI
 
-struct MetaView: View {
+struct MainView: View {
     var body: some View {
-        Text("Hesssllo, World!")
+        NavigationView{
+            MetaView()
+        }
     }
 }
 
 #Preview {
-    MetaView()
+    MainView()
 }
