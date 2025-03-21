@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		2213027D2D8D95C700004D43 /* Goalmate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Goalmate.app; path = "/Users/found/Desktop/Goalmate/build/Debug-iphoneos/Goalmate.app"; sourceTree = "<absolute>"; };
+		221303E02D8DA28A00004D43 /* Goalmate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Goalmate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -33,6 +33,7 @@
 			isa = PBXGroup;
 			children = (
 				2213027F2D8D95C700004D43 /* Goalmate */,
+				221303E02D8DA28A00004D43 /* Goalmate.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,7 +59,7 @@
 			packageProductDependencies = (
 			);
 			productName = Goalmate;
-			productReference = 2213027D2D8D95C700004D43 /* Goalmate.app */;
+			productReference = 221303E02D8DA28A00004D43 /* Goalmate.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
